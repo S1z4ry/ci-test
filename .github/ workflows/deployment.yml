@@ -11,6 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: action@checkout@v2.0.0
+      - uses: actions/checkout@v2.0.0
       - name: Release
         run: echo "Release wird gebaut"
